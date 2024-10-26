@@ -1,10 +1,11 @@
-bucket_name = "dev-proj-1-jenkins-remote-state-bucket-123456"
+bucket_name = "dev-project-1-jenkins-remote-bucket-1"
 
 vpc_cidr             = "11.0.0.0/16"
-vpc_name             = "dev-proj-jenkins-eu-west-vpc-1"
+vpc_name             = "dev-proj-jenkins-ap-southeast-vpc-1"
 cidr_public_subnet   = ["11.0.1.0/24", "11.0.2.0/24"]
 cidr_private_subnet  = ["11.0.3.0/24", "11.0.4.0/24"]
-eu_availability_zone = ["eu-west-1a", "eu-west-1b"]
+ap_availability_zone = ["ap-southeast-1a", "ap-southeast-1b"]
 
-public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDwmgMHFJE7J4qepIzAZL3/yC6J0zsEAb/oHYL+WBBDNUjSH4TeHUnHVNe9b/pyPcub+O/HNvlGrzSxUp0xT0b3O7kkTtgBKiG8NaBbonj+c7byfOGER80DYxc5adlBltuIDd8StFe7OMzbYyUSr1mdxDTIWm/OoE39G/fu3hTqUGkykv072GAy8nMFejITRw9pf+53B9ziE5rsdOUH4uqBiQa/Ng/qKo7h9MtJGcloRATYiObXwAgrHtt3sDrtvkq2ZceT906/BJm1Twlm+BHlQecHV18Ak3bzm/6HzlsA/q+yORsoB+VxSUxvVy0nXTc1X8vJAD4KSYVL5DTrpisdnQAIcuqAbea+LMku2o4sdnrrIlUi8/8BXeVbI4TNNGd0+sWpCVcDEhb4gyA/XXTvloQyjTYrL4+am/9XEY6NGdsrPK74sjvtpUZPUrmzTJ/mJWG5ncGY88GAj+YZAsY5pnAqh2CkR2TUpglugldnWyrppbe2QyC9iQkgUGSkBTs= rahulwagh@Rahuls-MacBook-Pro.local"
-ec2_ami_id = "ami-0694d931cee176e7d"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvdSMgMeeXBefLBallDP1kY5BcDPrqcNOkblSLaW8tStZKoYkOSQ1cye5IqA153AXvKVdFJKAwIT3RRcya4q7IBVLAG+PzUdxWo1WsxG/EncAqguQrQpFOVIi8YGhQMLSRjUx7kkDYpMaXi9tuIthAfX+LyS83oihFyd/aICfU/H/RJGboFBGfaAGgHZUSHXSP9LiDZZsU2A6SMz7T/OdXC3o+idbrsNu9BbmW20gVNVmrwfp84a34yekdkE7Dh3NPx2wQyOrWWpxpIyY8FIyYo7M0zxV0SVf5fLynfcJj1QTjr3RsykG4CUNHfnKWRufCi8yQnY5HvphMTDvADu/iS11gBUKgEzZGp6zMyqOlFmdHP9x5nQLCwGQ4pnq/MwoAW5BUZ+BiHGTUss0J5RMW+0xI/xlSRq8xk0r/MhGmv5EDVIxvMFwKaiatpvRQQrZfGCfnEj7iP1k84f9SqZWrO3sIkRSO4s908uXI4ux2xZXWdleAMhL8VYh9CV6Qi/0= KEN@LAPTOP-C2I4L7U0"
+ec2_ami_id = "ami-047126e50991d067b"
+
